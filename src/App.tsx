@@ -35,51 +35,18 @@ export default function App() {
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
       `}</style>
 
-      {/* SECTION A: Top Concierge Announcement Bar & Warm Ivory Glassmorphic Header */}
+      {/* Top Header */}
       <div className="sticky top-0 z-40 w-full">
-        {/* Announcement Bar in Warm Champagne & Antique Gold */}
-        <div className="bg-[#F1E9DC] text-[#725B2F] text-[9px] sm:text-[10px] font-semibold tracking-[0.2em] sm:tracking-[0.28em] uppercase py-2 px-3 text-center border-b border-[#D9C5A3] truncate">
-          LA ROYALE PARFUMS • BESPOKE EXTRAIT DE PARFUM • DIRECT WHATSAPP CONCIERGE
-        </div>
-
-        {/* 3-Zone Warm Ivory Glassmorphic Navbar */}
+        {/* Warm Ivory Glassmorphic Navbar */}
         <header className="bg-[#FFF8F2]/95 backdrop-blur-md border-b border-[#D9C5A3] transition-colors duration-300">
           <div className="max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-16 h-16 sm:h-20 flex items-center justify-between gap-4">
             
-            {/* Zone 1: Official Brand Logo */}
+            {/* Official Brand Logo */}
             <a href="#the-alchemy" className="shrink-0">
               <BrandLogo theme="ivory" size="md" allowModeToggle />
             </a>
 
-            {/* Zone 2: Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-8 text-xs font-medium tracking-[0.18em] uppercase">
-              <a
-                href="#the-alchemy"
-                className="text-[#4D463B] hover:text-[#725B2F] transition-colors whitespace-nowrap shrink-0"
-              >
-                The Alchemy
-              </a>
-              <a
-                href="#scent-anatomy"
-                className="text-[#4D463B] hover:text-[#725B2F] transition-colors whitespace-nowrap shrink-0"
-              >
-                Scent Anatomy
-              </a>
-              <a
-                href="#signature-collection"
-                className="text-[#4D463B] hover:text-[#725B2F] transition-colors whitespace-nowrap shrink-0"
-              >
-                Signature Collection
-              </a>
-              <a
-                href="#royal-boutique"
-                className="text-[#4D463B] hover:text-[#725B2F] transition-colors whitespace-nowrap shrink-0"
-              >
-                Royal Boutique
-              </a>
-            </nav>
-
-            {/* Zone 3: Primary Action Concierge WhatsApp */}
+            {/* Primary Action Concierge WhatsApp */}
             <div className="flex items-center gap-2 sm:gap-3 shrink-0">
               <a
                 href={DEFAULT_WHATSAPP_INQUIRY}
