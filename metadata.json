@@ -1,0 +1,6 @@
+{
+  "name": "LA ROYALE PARFUMS — Haute Parfumerie",
+  "description": "Bespoke Extrait de Parfum & Luxury Fragrance Flagship featuring 3D botanical alchemy, interactive Scent Anatomy, custom client catalog, and direct WhatsApp Concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
